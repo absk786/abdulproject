@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode:lighten;
-    background-color: 255 255 255 / 35%;
+    background-color:rgba(97 97 97 / 56%);
 }
 
 header {
@@ -26,8 +26,8 @@ p {
 }
 
 #contactinfo {
-font-size: 40px;    
-text-align:left;
+    font-size: 40px;    
+    text-align:left;
 
 }
 #images {
