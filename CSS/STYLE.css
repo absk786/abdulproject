@@ -49,5 +49,6 @@ li:hover::before {
      flex-direction: row;
      flex-wrap: wrap;
      height: 60px;
+     align-content:center;
     
  }
