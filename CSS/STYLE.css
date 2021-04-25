@@ -26,7 +26,7 @@ p {
 }
 
 #contactinfo {
-    font-size: 40px;    
+    font-size: 25pt;    
     text-align:left;
 
 }
@@ -52,4 +52,27 @@ li:hover::before {
      height: 60px;
      align-content:center;
      font-size: 18pt;
+ }
+
+ nav section {
+
+    margin-left: 400px;
+ }
+
+ .buttonstyle {
+    height: 30px;
+    width: 100px;
+    flex-wrap: wrap;
+    align-content: space-between;
+ }
+
+ #submitbutton{
+    height:60px ;
+    width: 150px; ;
+    font: size 32pt; ;
+ }
+
+ #ul {
+    font-size: 32pt;
+
  }
