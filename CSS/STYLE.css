@@ -28,10 +28,21 @@ p {
 #contactinfo {
     font-size: 25pt;    
     text-align:left;
-
+    padding: 50px;
 }
+
+#banner {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 #images {
-    background-color: azure;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #453f3c;
+    color: #ffffff;
     
 }
 
@@ -74,5 +85,48 @@ li:hover::before {
 
  #ul {
     font-size: 32pt;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #453f3c;
 
+ }
+
+/* content section*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+.search {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #453f3c;
+    color: #ffffff;
+}
+.headertwo {
+    max-height: 200px;
+    font-size: 36px;
+    margin-bottom: 20px
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+/* content sectoin */
+
+
+
+ #backtotop {
+
+    font-size: 18pt;
  }
