@@ -8,8 +8,7 @@
     <title>Welcome</title>
 </head>
 
-<body id="output">toggle button>
-    <button id="button" onclick="toggle();"> switch colour
+<body id="output">
     <a href="top"></a>
 
     <h1>Welcome to my Page</h1>
@@ -35,12 +34,13 @@
             <button class="buttonstyle">
                 <a href="mailto:rehmank11@gmail.com">Email me</a>
             </button> 
-        </section>
+            <button id="button" onclick="toggle();">❤️</button>
 
+        </section>
     </nav>
     
     <section id="banner">
-        <div id="images">
+        <div id="Introduction">
             <ul>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li>
@@ -85,7 +85,6 @@
     <Footer>
         <a id="backtotop" href="#top">Back to top</a>
     </Footer>
-
     
     <script>
         var clicked = false;
@@ -97,7 +96,7 @@
              } else {
                  clicked = false;
                  document.getElementById("button").innerHTML = "❤️";
-                 document.getElementById("output").style.background = "#453f3c";;
+                 document.getElementById("output").style.background = "#ffffff";;
              }
  
          }
