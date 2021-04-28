@@ -8,7 +8,8 @@
     <title>Welcome</title>
 </head>
 
-<body>
+<body id="output">toggle button>
+    <button id="button" onclick="toggle();"> switch colour
     <a href="top"></a>
 
     <h1>Welcome to my Page</h1>
@@ -37,8 +38,7 @@
         </section>
 
     </nav>
-    <div id="picture"></div>
-
+    
     <section id="banner">
         <div id="images">
             <ul>
@@ -85,5 +85,24 @@
     <Footer>
         <a id="backtotop" href="#top">Back to top</a>
     </Footer>
+
+    
+    <script>
+        var clicked = false;
+         function toggle () {
+             if(!clicked) {
+                 clicked = true;
+                 document.getElementById("button").innerHTML = "🔥";
+                 document.getElementById("output").style.background = "#000000";
+             } else {
+                 clicked = false;
+                 document.getElementById("button").innerHTML = "❤️";
+                 document.getElementById("output").style.background = "#453f3c";;
+             }
+ 
+         }
+     </script>
+ </body>
 </body>
+
 </html>

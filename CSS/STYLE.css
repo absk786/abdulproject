@@ -1,26 +1,21 @@
-body {
+#body {
     margin: 0;
     padding: 0;
     background-image: url(./bg1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode:lighten;
-    background-color:whitesmoke;
+    background-color:rgb(16, 78, 235);
 }
+
+#bodycolourwhite{
+    background-color:rgb(241, 240, 247);
+}
+
 p {
     font-size: xx-large;
     display: flex;
     flex-wrap: wrap;
-}
-
-#picture {
-    height: 600px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url(./bridge.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: lighten;
 }
 
 header {
@@ -55,6 +50,7 @@ nav {
     flex-wrap: wrap;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 10px;
 }
 
 nav section {
@@ -86,6 +82,7 @@ nav section {
 }
 
 #images {
+    margin-top: 20px;
     margin-bottom: 20px;
     padding: 50px;
     height: 200px;

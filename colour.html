@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <body id="output">toggle button>
+        
+    </body>
+    <button id="button" onclick="toggle();"> switch colour
+    </button>
+    <script>
+       var clicked = false;
+        function toggle () {
+            if(!clicked) {
+                clicked = true;
+                document.getElementById("button").innerHTML = "on";
+                document.getElementById("output").style.background = "#000000";
+            } else {
+                clicked = false;
+                document.getElementById("button").innerHTML = "Off";
+                document.getElementById("output").style.background = "#453f3c";;
+            }
+
+        }
+    </script>
+    
+</body>
+</html>
