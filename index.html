@@ -8,9 +8,11 @@
     <title>Welcome</title>
 </head>
 
-<body id="output">
-    <a href="top"></a>
-    <nav>
+<body>
+
+    <body id="output">
+        <a href="top"></a>
+        <nav>
         <section id="navigationsection">
             <button class="buttonstyle">
                 <a href="">About</a>
@@ -24,52 +26,52 @@
             <button class="buttonstyle1">
                 <a href="mailto:rehmank11@gmail.com">Lets connect</a>
             </button> 
-            <button id="button" onclick="toggle();">❤️
+            <button id="button" onclick="toggle();">🌓
 
         </section>
-    </nav>
-    <h1> Hello! I'm Abdul, am a Web Developer from Toronto.</h1>
+        </nav>
+        <h1> <span id="hellocolour">Hello! </span> I'm Abdul, a Web Developer from Toronto.</h1>
 
-    <section class="content">
-        
-        <div class="search">
-            <img src="" alt="need description of image" class="float-left"/>
-            <h2 class="headertwo">loremlremlorem</h2>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel aperiam assumenda ipsa minima molestias quisquam repellat a voluptas sit atque veritatis, ex nobis ipsam quaerat quam nihil sint praesentium reprehenderit!
-            </p>
-        </div>
-        <div class="search">
-            <img src="" alt="need description of image" class="float-right" />
-            <h2 class="headertwo">loremloremlorem</h2>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel aperiam assumenda ipsa minima molestias quisquam repellat a voluptas sit atque veritatis, ex nobis ipsam quaerat quam nihil sint praesentium reprehenderit!
-            </p>
-        </div>
-        <div class="search">
-            <img src="" alt="need description of image" class="float-left" />
-            <h2 class="headertwo">loremloremlorem</h2>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel aperiam assumenda ipsa minima molestias quisquam repellat a voluptas sit atque veritatis, ex nobis ipsam quaerat quam nihil sint praesentium reprehenderit!
-            </p>
-        </div>
-    </section>
+        <section class="content">
+            
+            <div class="search">
+                <img src="" alt="need description of image" class="float-left"/>
+                <h2 class="headertwo">loremlremlorem</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel aperiam assumenda ipsa minima molestias quisquam repellat a voluptas sit atque veritatis, ex nobis ipsam quaerat quam nihil sint praesentium reprehenderit!
+                </p>
+            </div>
+            <div class="search">
+                <img src="" alt="need description of image" class="float-right" />
+                <h2 class="headertwo">loremloremlorem</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel aperiam assumenda ipsa minima molestias quisquam repellat a voluptas sit atque veritatis, ex nobis ipsam quaerat quam nihil sint praesentium reprehenderit!
+                </p>
+            </div>
+            <div class="search">
+                <img src="" alt="need description of image" class="float-left" />
+                <h2 class="headertwo">loremloremlorem</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel aperiam assumenda ipsa minima molestias quisquam repellat a voluptas sit atque veritatis, ex nobis ipsam quaerat quam nihil sint praesentium reprehenderit!
+                </p>
+            </div>
+        </section>
 
-    <Footer>
-        <a id="backtotop" href="#top">Back to top</a>
-    </Footer>
+        <Footer>
+            <a id="backtotop" href="#top">Back to top</a>
+        </Footer>
     
-    <script>
-        var clicked = false;
-         function toggle () {
-             if(!clicked) {
-                 clicked = true;
-                 document.getElementById("button").innerHTML = "🔥";
-                 document.getElementById("output").style.background = "#17252A";
-             } else {
-                 clicked = false;
-                 document.getElementById("button").innerHTML = "❤️";
-                 document.getElementById("output").style.background = "#DEF2F1";;
+        <script>
+            var clicked = false;
+            function toggle () {
+                if(!clicked) {
+                    clicked = true;
+                    document.getElementById("button").innerHTML = "🌓";
+                    document.getElementById("output").style.background = "#17252A";
+                } else {
+                    clicked = false;
+                    document.getElementById("button").innerHTML = "🌓";
+                    document.getElementById("output").style.background = "#DEF2F1";
              }
  
          }
