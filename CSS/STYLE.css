@@ -306,36 +306,41 @@ h5 {
     }
     
     nav {
-        width: 400px;
+        min-width: 400px;
         margin-left: 5px;
     }
 #navigationsection {
     margin-left: 5px;
-    width: 400px;
+    min-width: 400px;
+    border: 3px black;
+
 }
 
 #button {
     background-color: transparent;
     border: transparent;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 25px;
-    }
+    margin-left: 184px;
+}
 
 .buttonstyle {
     height: 30px;
-    width: 100px;
+    width: 91px;
     font-size: 20px;
     flex-wrap: wrap;
     margin-top: 29px;
-    align-content:space-between;
+    align-content: space-between;
     text-align: center;
-    background-color:transparent;
+    background-color: transparent;
     border: transparent;
-    }
+    margin-left: -4px;
+ }
 
-    .buttonstyle1 {
+
+.buttonstyle1 {
         /* height: 30px; */
-        width: 130px;
+        width: 126px;
         font-size: 20px;
         flex-wrap: wrap;
         margin-top: 29px;
@@ -356,10 +361,30 @@ h5 {
         padding-top: 180px;
 }
 .Socialmediabutton {
-    background-color: transparent;
-    border: transparent;
+    /* background-color: transparent; */
+    /* border: transparent; */
 }
 
+#github {
+    width: 34px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 3px;
+    /* background-color: transparent; */
+
+}
+
+#linkedin {
+    width: 20px;
+    height: 20px;
+    /* background-color: transparent; */
+}
+
+#facebook {
+    width: 20px;
+    height: 20px;
+    /* background-color: transparent; */
+}
 
 .content {
         width: 100%;
@@ -384,22 +409,27 @@ h5 {
         margin-right: 20px;
     }
 
-    h2 {
-
+    H2 {
         margin-top: -133px;
-        margin-right: 5px;
+        margin-right: 8px;
+        width: 213px;
+        font-size: 29px;
+        margin-left: -133px;
     }
 
     p {
-        font-size: 23px;
-        display: flex;
-        flex-wrap: wrap;
-        width: 208%;
-        margin-right: 11px;
-        margin-left: 11px;
-        width: 103px;s
+        font-size: 17px;
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        /* width: 208%; */
+        margin-right: -112px;
+        margin-left: -107px;
+        width: 313px;
+        zoom: 1.25;
+        contain: layout;
+        /* align-content: flex-start; */
+        background-position-x: 37px;
     }
-
     footer {
         text-align: center;
         margin-top: 1232px;
