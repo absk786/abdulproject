@@ -1,15 +1,5 @@
-/*
-#body {
-    margin: 0;
-    padding: 0;
-    background-image: url(./bg1.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode:lighten;
-    background-color: #DEF2F1;
- } */
 
- body {
+body {
 
     background-color: #DEF2F1;
  }
@@ -53,7 +43,7 @@ h1 {
     color: rgb(220, 113, 20);
   } */
 
-  #hellocolour {
+#hellocolour {
     color: rgb(220, 113, 20);
 
   }
@@ -192,22 +182,9 @@ a:link {
     text-decoration: none;
   }
   
-  #gotoabout:visited {
+#gotoabout:visited {
     text-decoration: none;
   }
-  
-
-/*  
-ul:hover::before {
-    content: "🥔";
-    background-color: crimson;
- }
- ul:hover::after {
-   background-color: crimson;
-    
- }
-*/
-
 
  #ul {
     font-size: 32pt;
@@ -258,7 +235,7 @@ footer{
     font-size: 18pt;
  }
 
-
+/* ipadpro */
 @media screen and (max-width: 1024px) {
   body {
   
@@ -363,8 +340,8 @@ h5 {
 
 }
 
-
-@media screen and (max-width: 400px) {
+/* iphone7/6/8 */
+@media screen and (max-width: 400px) { 
 body {
 
 }

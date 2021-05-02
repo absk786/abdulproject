@@ -12,10 +12,10 @@
     <body id="output">
         <nav>
             <section id="navigationsection">
-                <a href=".search"></a>
-                <button class="buttonstyle"><a id="gotoabout" href="#About">About</a></button> 
                 <button class="buttonstyle">
-                    <a href="">My Work</a>
+                    <a href="#aboutme">About</a></button> 
+                <button class="buttonstyle">
+                    <a href="#mywork">My Work</a>
                 </button> 
                 <button class="buttonstyle">
                     <a href="./Resume/Abdul.khalil4.4 (1).pdf" download>Resume</a>
@@ -40,16 +40,13 @@
             </div>
         </div>
        
-       
         <section class="content">
-            <div class="search">
+            <div id="aboutme" class="search">
                 <h2 class="headertwo">About Me!</h2>
-                <p>
-                    Abdul is an astute, life long learner, and an extremely versatile individual with 5 successful of years of experience in agile change/software/web/digital products development where a Kanban approach embedded with feature driven development/scrum was used to deliver many successful features; Extensive experience in carrying out product management, road mapping, requirements elicitation, user acceptance testing, backlog grooming and milestone identification by successfully collaborating with the cross functional team to ultimately streamline product development.                 </p>
+                <p>                    Abdul is an astute, life long learner, and an extremely versatile individual with 5 successful of years of experience in agile change/software/web/digital products development where a Kanban approach embedded with feature driven development/scrum was used to deliver many successful features; Extensive experience in carrying out product management, road mapping, requirements elicitation, user acceptance testing, backlog grooming and milestone identification by successfully collaborating with the cross functional team to ultimately streamline product development.                 </p>
+                </p>
             </div>
-            <a href="#About"></a>
-            <div class="search">
-                <a href="top"></a>
+            <div id="mywork" class="search">
                 <h2 class="headertwo">My Work!</h2>
                 <p>
                     I am a certified mortgage agent and have been working in the Mortgage/lending tech space for the best part of the year. At my current role we automate the workflow of mortgage applications. We work on a multitude of features/projects including CRM, client journey, E-sign, Income verification, document generation and management and more to aid and ease the workflow of the mortgage approval process. My day to day activities involve linking the business team directly to the application development team. </p>
@@ -60,6 +57,7 @@
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel aperiam assumenda ipsa minima molestias quisquam repellat a voluptas sit atque veritatis, ex nobis ipsam quaerat quam nihil sint praesentium reprehenderit!
                 </p>
             </div>
+            
        
         </section>
 
@@ -75,7 +73,8 @@
                     clicked = true;
                     document.getElementById("button").innerHTML = "🌓";
                     document.getElementById("output").style.background = "#17252A";
-                } else {
+                } 
+                else {
                     clicked = false;
                     document.getElementById("button").innerHTML = "🌓";
                     document.getElementById("output").style.background = "#DEF2F1";
