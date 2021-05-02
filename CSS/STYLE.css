@@ -223,6 +223,24 @@ a:link {
     margin-bottom: 20px
 }
 
+#refactor {
+
+    max-width: 400px;
+    max-height: 400px;
+    float: right;
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
+    height: 200px;
+    width: 200px;
+}
+
+#refactor:hover { 
+    height: 250px;
+    width: 250px;
+  }
+
 /* content sectoin */
 
 footer{
