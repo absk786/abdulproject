@@ -9,6 +9,12 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
+#refactorimagecontent
+{
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 header {
     color:black;
@@ -217,6 +223,16 @@ a:link {
         margin-right: 20px;}
 }
 
+.searchpic {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #453f3c;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;}
+}
 .headertwo {
     max-height: 200px;
     font-size: 36px;
@@ -231,15 +247,20 @@ a:link {
 }
 .float-right {
     float: right;
-    margin-left: 25px;
+    margin-left: -6px;
     height: 200px;
     width: 200px;
+    margin-right: -5px;
 }
 
 #refactor:hover { 
-    height: 250px;
-    width: 250px;
+    zoom: 1.5;
+    margin-right: -20px;
+    margin-left: 40px;
+    background-color: transparent;
+    border: transparent;
   }
+
 
 /* content sectoin */
 
@@ -333,15 +354,16 @@ h5 {
     margin-left: 374px;
     font-size: 31px;
     background-color: transparent;
-}s
+}
+
 
 #myimage {
     background-image: url(./libs.jpeg);
-    background-size: 599px;
+    background-size: 500px;
     background-repeat: no-repeat;
-    background-position-x: 385px;
-    background-position-y: 24px;
-    margin-right: 11px;
+    background-position-x: 400px;
+    background-position-y: 2px;
+    margin-right: 150px;
     height: 650px;
 }
 
@@ -374,15 +396,16 @@ h1 {
         background-color: transparent;
         width: 400px;
         height: 150px;
-        margin-top: 70px;
+        margin-top: 20px;
         margin-left: 20px;
 }
 
 h5 {
         font-size: 16px;
         text-decoration: underline;
-        margin-left: 20px;
+        margin-left: 14px;
         width: 400px;
+        margin-top: -164px;
  }
 
 #myimage {
@@ -393,18 +416,18 @@ h5 {
         background-position-y: 250px;
         margin-right: 10px;
         height: 630px;
-        margin-left: 5px;
+        margin-left: 45px;
         width: 400px;
         padding-right: 30px;
     }
     
     nav {
-        min-width: 400px;
+        min-width: 500px;
         margin-left: 5px;
     }
 #navigationsection {
-    margin-left: 5px;
-    min-width: 400px;
+    margin-left: 25px;
+    min-width: 411px;
     border: 3px black;
 
 }
@@ -414,12 +437,12 @@ h5 {
     border: transparent;
     font-size: 30px;
     margin-top: 25px;
-    margin-left: 184px;
+    margin-left: 211px;
 }
 
 .buttonstyle {
     height: 30px;
-    width: 91px;
+    width: 117px;
     font-size: 20px;
     flex-wrap: wrap;
     margin-top: 29px;
@@ -427,21 +450,22 @@ h5 {
     text-align: center;
     background-color: transparent;
     border: transparent;
-    margin-left: -4px;
- }
+    margin-left: -14px;
+}
 
 
 .buttonstyle1 {
-        /* height: 30px; */
-        width: 126px;
-        font-size: 20px;
-        flex-wrap: wrap;
-        margin-top: 29px;
-        /* align-content: space-between; */
-        /* text-align: center; */
-        background-color: transparent;
-        border: transparent;
-    }
+    margin-left: 10px;
+    /* height: 30px; */
+    width: 127px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    margin-top: 29px;
+    /* align-content: space-between; */
+    /* text-align: center; */
+    background-color: transparent;
+    border: transparent;
+}
 
 #socialmediabuttonmain {
         margin-top: 125px;
@@ -493,13 +517,45 @@ h5 {
 
     .search {
         margin-bottom: 20px;
-        padding: 154px;
-        height: 271px;
+        padding: 198px;
+        height: 136px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         background-color: #453f3c;
         color: #ffffff;
         margin-left: 246px;
         margin-right: 20px;
+    }
+
+    /* .search1 {
+        margin-bottom: 39px;
+        padding: 109px;
+        /* padding-right: 108px; */
+        /* padding-bottom: 115px; */
+        /* padding-top: 153px;
+        height: 256px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #453f3c;
+        color: #ffffff;
+        margin-left: 256px; */
+    /* } */ 
+
+    #refactorimagecontent {
+        width: 400px;
+        font-size: 17pt;
+       
+    }
+
+    #refactor {
+        max-width: 400px;
+        max-height: 400px;
+        float: right;
+        margin-top: -144px;
+        margin-left: 77px;
+    }
+
+    .float-right {
+        height: 38px;
+        width: 38px;
     }
 
     H2 {
