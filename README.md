@@ -6,6 +6,7 @@
 
 ## Name: Abdul Khalil
 ## [GitHub](https://github.com/absk786)
+## [link to project](https://absk786.github.io/abdulproject/)
 
 ## Table of Contents:
 * [Description](https://github.com/absk786/assignment7/blob/main/README.md#Description)
